@@ -8,11 +8,11 @@ p{
 }
 
 .num1 {
-	color: #FAEBD7;
+	color: #7FFFD4;
 }
 
 .num2 {
-	color: #008B8B;
+	color: #00FFFF;
 }
 
 .num3 {
@@ -20,7 +20,7 @@ p{
 }
 
 .num4 {
-	color: #00BFFF;
+	color: #2F4F4F;
 }
 {
 	}.num1:visited {
