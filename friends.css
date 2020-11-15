@@ -1,0 +1,27 @@
+.friends {
+	text-align: center;
+	font-size: 22px;
+}
+
+.nag {
+	font-style: italic;
+}
+
+.myfriend {
+	text-align: center;
+}
+
+.GG1 {
+	background: #007F0EFF;
+	padding: 0.6rem;
+	font-weight: 800;
+}
+
+.GG2 {
+	font-weight: 100;
+	background: #808080FF;	
+}
+
+.GG3 {
+	font-weight: 100;
+}
