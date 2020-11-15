@@ -1,0 +1,127 @@
+#up {
+	text-align: center;
+	font-size: 22px;
+}
+
+.home {
+	text-align: center;
+	font-style: italic;
+}
+
+{
+
+	}.zms1 .zms1-1{
+		background: blue;
+		text-decoration: none;
+    color: #FFFFFFFF;
+		display: inline-block;
+		text-decoration: none;
+    border-radius: 3px;
+    padding: 0.0001em 0.6rem;
+	}
+	.zms2 .zms2-2{
+		background: blue;
+		text-decoration: none;
+    color: #FFFFFFFF;
+		display: inline-block;
+		text-decoration: none;
+    border-radius: 3px;
+    padding: 0.0001em 0.6rem;
+	}
+	.zms3 .zms3-3{
+		background: blue;
+		text-decoration: none;
+    color: #FFFFFFFF;
+		display: inline-block;
+		text-decoration: none;
+    border-radius: 3px;
+    padding: 0.0001em 0.6rem;
+	}
+	.zms4 .zms4-4{
+		background: blue;
+		text-decoration: none;
+    color: #FFFFFFFF;
+		display: inline-block;
+		text-decoration: none;
+    border-radius: 3px;
+    padding: 0.0001em 0.6rem;
+	}
+	.zms5 .zms5-5 {
+		background: blue;
+		text-decoration: none;
+    color: #FFFFFFFF;
+		display: inline-block;
+		text-decoration: none;
+    border-radius: 3px;
+    padding: 0.0001em 0.6rem;
+}
+	  .zms1 .zms1-1:hover {
+	  color: black;
+    display: inline-block;
+		background-color: magenta;
+	}
+
+	  .zms1 .zms1-1:active{
+		color: black;
+    display: inline-block;
+		background-color: yellow;
+	}
+
+		.zms2 .zms2-2:hover {
+		color: black;
+    display: inline-block;
+		background-color: magenta;
+
+	}
+	  .zms2 .zms2-2:active{
+		color: black;
+    display: inline-block;
+		background-color: yellow;
+	}
+
+		.zms3 .zms3-3:hover {
+		color: black;
+    display: inline-block;
+		background-color: magenta;
+
+	}
+   	.zms3 .zms3-3:active{
+		color: black;
+    display: inline-block;
+		background-color: yellow;
+	}
+
+		.zms4 .zms4-4:hover {
+		color: black;
+    display: inline-block;
+		background-color: magenta;
+	}
+  	.zms4 .zms4-4:active{
+		color: black;
+    display: inline-block;
+		background-color: yellow;
+	}
+
+		.zms5 .zms5-5:hover {
+		color: black;
+    display: inline-block;
+		background-color: magenta;
+
+	}
+  	.zms5 .zms5-5:active{
+		color: black;
+    display: inline-block;
+		background-color: yellow;
+	}
+
+.headline {
+	font-size: 120%
+}
+
+.text {
+	font-size: 140%
+}
+
+#Ywerh {
+	text-transform: uppercase;
+}
