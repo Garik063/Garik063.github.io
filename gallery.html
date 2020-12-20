@@ -1,54 +1,113 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Галерея</title>
-	<style>
-		#gal {
-	text-align: center;
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+h1 {
+    text-align: center; 
+    font-size: 20px;
+}
+a {
+    font-style: italic;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+#im1 {
+    font-size: 105%;
+}
+#im2 {
+    font-size: 195%;
+}
+#im3 {
+    font-size: 253%;
+}
+p {
+    text-align: center;
 }
 
-#home {
-	font-style: italic;
+
+@media (min-width: 993px){
+div{
+    width: 33.33%;
+    float: left;
 }
-
-.images {
-	text-align: center;
+    img{
+        width: 290px;
+        height: 218px;
+    }
+    #im1{
+        margin-top: 25px;
+    }
+    #im2{
+        margin-top: 10px;
+        margin-bottom: 16.8px;
+    }
+    #im3{
+        margin: 0;
+    }
 }
-
-.g1 {
-	font-size: 100%;
+@media (min-width: 769px) and (max-width: 992px){
+div{
+    width: 50%;
+    float: left;
 }
-
-.g2 {
-	font-size: 130%;
+    .dog1{
+        width: 100%;
+    }
+    img{
+        width: 320px;
+        height: 240px;
+    }
+    #im1{
+        margin-top: 25px;
+    }
+    #im2{
+        margin-top: 10px;
+        margin-bottom: 16.8px;
+    }
+    .dog2{
+        width: 640px;
+        height: 480px;
+    }
 }
-
-.g3 {
-	font-size: 160%;
+@media (max-width: 768px){
+    .dog2{
+        width: 640px;
+        height: 480px;
+    }
 }
-
-.amg {
-	text-align: center;
-}
-	</style>
-</head> 
-<body>  
-<h1 id="gal">Галерея Юрійчука Василя Володимировича</h1> 
-<a href="index.html" id="home">Назад на головну</a>
-
-<h2 class="images">Мої зображення</h2> 
-
-<h3 class="images" class="g1"><div class="g1">Зображення у цій папці</div></h3> 
-<div class="amg"><img src="wallpapersden.com_small-memory_wl.jpg" width="640" height="480" alt="фото 1"></div> 
- 
-<h3 class="images" ><div class="g2">Зображення у папці</div></h3>
-<div class="amg"><img src="images\abstract-q-c-640-480-5.jpg" width="640" height="480" alt="фото 2"></div> 
- 
-<h3 class="images"><div class="g3">Зображення онлайн</div></h3> 
-<div class="amg"><img src="https://www.ixbt.com/img/n1/news/2019/11/4/dims_large.jpg" width="1280" height="1024" alt="фото 3"></div> 
-<br>
-<br>
- 
-</body>  
+    </style>
+</head>
+<body>
+<h1>Галерея Юрійчука Василя Володимировича</h1>
+<a href = "index.html">Назад на головну</a>
+<h2>Мої зображення</h2>
+<div>
+<h3 id="im1">Зображення у цій папці</h3>
+<p><img src="wallpapersden.com_small-memory_wl.jpg"
+        alt="фото 1"
+        width="640"
+        height="480">
+</p>
+</div>
+<div>
+<h3 id="im2">Зображення у папці</h3>
+<p><img src="images\abstract-q-c-640-480-5.jpg"
+        alt="фото 2"
+        width="640"
+        height="480"></p>
+</div>
+<div class="dog1">
+<h3 id="im3">Зображення онлайн</h3>
+<p><img class="dog2" src="https://www.ixbt.com/img/n1/news/2019/11/4/dims_large.jpg"
+        alt="фото 3"
+        width="1280"
+        height="1024"></p>
+</div>
+</body>
 </html>
