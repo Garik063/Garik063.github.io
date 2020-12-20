@@ -1,92 +1,119 @@
-<!DOCTYPE html> 
-<html> 
- 
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-        <title>Друзі</title>
-<style>
-.friends {
-	text-align: center;
-	font-size: 22px;
-}
-
-.nag {
-	font-style: italic;
-}
-
-.myfriend {
-	text-align: left;
-}
-
+    <meta charset="UTF-8">
+    <title>Title</title>
+   <style>
+    h1 {
+        text-align: center;
+         font-size: 22px;
+       }
+a {
+    font-style: italic;
+  }
+h2 {
+    text-align: center;
+   }
 .GG1 {
-	background: #007F0EFF;
-	padding: 0.6rem;
-	font-weight: 800;
-}
-
+    text-align: center;
+    background-color: green; 
+    color: black; 
+    font-weight: 600;
+   }
 .GG2 {
-	font-weight: 100;
-	background: #808080FF;	
-}
-
+    background-color: grey;
+     }
 .GG3 {
-	font-weight: 100;
+    background-color: white;
+     }
+th {
+    border: black; border-width: 
+    2px; border-style: solid; 
+    padding: 10px; 
+    text-align: center;
+   }
+td {
+    border: black; 
+    border-width: 2px; 
+    border-style: solid; 
+    padding: 3px; 
+    text-align: center;
+   }
+@media (min-width: 993px){
+    th{
+        font-size: 130%;
+    }
+    td{
+        font-size: 120%;
+    }
 }
-</style>
-</head> 
-<body>  
-<h1 class="friends">Друзі Юрійчука Василя Володимировича</h1> 
- <p><a href="index.html" class="nag">Назад на головну</a></p> 
-<br>
-<h2 class="myfriend">Мої друзі</h2> 
-	<table border="1">
-	<style>
-	td { text-align: center; }
-	</style>
-	<th colspan="5">Мої друзі</th>
-   <tr> 
-<th class="GG1">Прізвище</th> 
-<th class="GG1">Ім'я</th> 
-<th class="GG1">Контактний телефон</th> 
-<th class="GG1">Адрес проживання</th> 
-<th class="GG1">Дата народження</th> 
-    </tr> 
-    <tr> 
-        <th class="GG2">Колінцьо</th>
-	<th class="GG2">Андрій</th>
-	<th class="GG2">+380(67)*****</th>
-        <th class="GG2">Снятин</th>
-	<th class="GG2">2003</th>
-    </tr> 
-    <tr> 
-       <td class="GG3">Мандяк</td> 
-       <td class="GG3">Назар</td> 
-       <td class="GG3">+380(98)*****</td> 
-       <td class="GG3">Львів</td> 
-       <td class="GG3">2001</td>  
-    </tr> 
-    <tr> 
-        <th class="GG2">Литвин</th>
-	<th class="GG2">Ігорк</th>
-	<th class="GG2">+380(68)*****</th>
-        <th class="GG2">Херсон</th>
-	<th class="GG2">1987</th>  
-    </tr> 
-    <tr> 
-       <td class="GG3">Павлюк</td> 
-       <td class="GG3">Максим</td> 
-       <td class="GG3">+380(68)*****</td> 
-       <td class="GG3">Львів</td> 
-       <td class="GG3">1980</td>  
-    </tr> 
+@media (min-width: 769px) and (max-width: 992px){
+    th{
+        font-size: 120%;
+    }
+    td{
+        font-size: 110%;
+    }
+}
+@media (max-width: 768px){
+    th{
+        font-size: 110%;
+    }
+    td{
+        font-size: 100%;
+    }
+}
+   </style>
+</head>
+<body>
+<h1>Друзі Юрійчука Василя Володимировича</h1>
+<p><a href = "index.html">Назад на головну</a></p>
+<h2>Мої друзі</h2>
+<table>
     <tr>
-	<th class="GG2">Володимир</th>
-	<th class="GG2">Мандяк</th>
-	<th class="GG2">+380(68)*****</th>
-        <th class="GG2">Київ</th>
-	<th class="GG2">1980</th>
+        <th colspan="5">Мої друзі</th>
     </tr>
- </table> 
+    <tr>
+       <th class="GG1">Прізвище</th> 
+       <th class="GG1">Ім'я</th> 
+       <th class="GG1">Контактний телефон</th> 
+       <th class="GG1">Адрес проживання</th> 
+       <th class="GG1">Дата народження</th
+    </tr>
 
+    <tr>
+    <th class="GG2">Колінцьо</th>
+    <th class="GG2">Андрій</th>
+    <th class="GG2">+380(67)*****</th>
+    <th class="GG2">Снятин</th>
+    <th class="GG2">2003</th>
+    </tr>
 
-</body> 
+    <tr>
+    <td class="GG3">Мандяк</td> 
+    <td class="GG3">Назар</td> 
+    <td class="GG3">+380(98)*****</td> 
+    <td class="GG3">Львів</td> 
+    <td class="GG3">2001</td>  
+    </tr>
+
+   <tr> 
+    <td class="GG3">Павлюк</td> 
+    <td class="GG3">Максим</td> 
+    <td class="GG3">+380(68)*****</td> 
+    <td class="GG3">Львів</td> 
+    <td class="GG3">1980</td>  
+    </tr> 
+
+    <tr>
+    <th class="GG2">Володимир</th>
+    <th class="GG2">Мандяк</th>
+    <th class="GG2">+380(68)*****</th>
+    <th class="GG2">Київ</th>
+    <th class="GG2">1980</th>
+    </tr>
+
+</table>
+</body>
 </html>
