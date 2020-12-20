@@ -1,188 +1,194 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Автобіографія</title>
-	<style> p { line-height: 1.5 } </style>
+    <title>Автобіографія</title>
+    <style> p { line-height: 1.5 } </style>
 <style>
 #up {
-	text-align: center;
-	font-size: 22px;
+    text-align: center; font-size: 22px;
+    }
+#home {
+    font-style: italic;
+    }
+h3 {
+    text-align: center;
+   }
+.knopka{
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 100px;
+    background: LawnGreen;
+    box-shadow: 0 -3px LawnGreen inset;
+    transition: 0.2s;}
+.knopka:hover {
+    background: magenta;
+    box-shadow: none;
+    color: black;}
+.knopka:active {
+    background: yellow;
 }
-#Зміст {
-	text-align: center;
+article{
+    font-size: 120%;
+    padding: 5px;
 }
-
-.home {
-	text-align: center;
-	font-style: italic;
+h2{font-size: 1.8em;}
+.zmist{font-weight: 600;}
+#abz1{
+    background-color: aqua;
+    border: 1px solid black;
 }
-
-{
-
-	}.zms1 .zms1-1{
-		background: blue;
-		text-decoration: none;
-                color: #FFFFFFFF;
-		display: inline-block;
-		text-decoration: none;
-    border-radius: 3px;
-    padding: 0.0001em 0.6rem;
-	}
-	.zms2 .zms2-2{
-		background: blue;
-		text-decoration: none;
-                color: #FFFFFFFF;
-		display: inline-block;
-		text-decoration: none;
-    border-radius: 3px;
-    padding: 0.0001em 0.6rem;
-	}
-	.zms3 .zms3-3{
-		background: blue;
-		text-decoration: none;
-                color: #FFFFFFFF;
-		display: inline-block;
-		text-decoration: none;
-    border-radius: 3px;
-    padding: 0.0001em 0.6rem;
-	}
-	.zms4 .zms4-4{
-		background: blue;
-		text-decoration: none;
-                color: #FFFFFFFF;
-		display: inline-block;
-		text-decoration: none;
-    border-radius: 3px;
-    padding: 0.0001em 0.6rem;
-	}
-	.zms5 .zms5-5 {
-		background: blue;
-		text-decoration: none;
-                color: #FFFFFFFF;
-		display: inline-block;
-		text-decoration: none;
-    border-radius: 3px;
-    padding: 0.0001em 0.6rem;
+#abz2{
+    background-color: yellow;
+    border: 1px solid black;
 }
-	  .zms1 .zms1-1:hover {
-	  color: black;
-    display: inline-block;
-		background-color: magenta;
-	}
-
-	  .zms1 .zms1-1:active{
-		color: black;
-    display: inline-block;
-		background-color: yellow;
-	}
-
-		.zms2 .zms2-2:hover {
-		color: black;
-    display: inline-block;
-		background-color: magenta;
-
-	}
-	  .zms2 .zms2-2:active{
-		color: black;
-    display: inline-block;
-		background-color: yellow;
-	}
-
-		.zms3 .zms3-3:hover {
-		color: black;
-    display: inline-block;
-		background-color: magenta;
-
-	}
-   	.zms3 .zms3-3:active{
-		color: black;
-    display: inline-block;
-		background-color: yellow;
-	}
-
-		.zms4 .zms4-4:hover {
-		color: black;
-    display: inline-block;
-		background-color: magenta;
-	}
-  	.zms4 .zms4-4:active{
-		color: black;
-    display: inline-block;
-		background-color: yellow;
-	}
-
-		.zms5 .zms5-5:hover {
-		color: black;
-    display: inline-block;
-		background-color: magenta;
-
-	}
-  	.zms5 .zms5-5:active{
-		color: black;
-    display: inline-block;
-		background-color: yellow;
-	}
-        #w1{background-color: teal;}
-        #w2{background-color: darkgreen; }
-        #w3{background-color: coral; }
-        #w4{background-color: brown;}
-        #w5{background-color: mediumseagreen; }
-
-.headline {
-	font-size: 120%
+#abz3{
+    background-color: coral;
+    border: 1px solid black;
 }
-
-.text {
-	font-size: 140%
+#abz4{
+    background-color: mediumseagreen;
+    border: 1px solid black;
 }
+#abz5{
+    background-color: teal;
+    border: 1px solid black;
+}
+#pro{text-transform: uppercase;}
 
-#Ywerh {
-	text-transform: uppercase;
+
+
+@media screen and (min-width: 993px){
+    .abz1-1{
+    width:33.33%;
+    float: left;
+    }
+    .abz2-2{
+        width: 33.33%;
+        float: left;
+    }
+    .abz3-3{
+        width: 33.33%;
+        float: left;
+    }
+    .abz4-4{
+        width: 50%;
+        float: left;
+    }
+    .abz5-5{
+        width: 50%;
+        float: left;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .abz1-1{
+        width: 50%;
+        float: left;
+    }
+    .abz2-2{
+        width: 50%;
+        float: left;
+    }
+    .abz3-3{
+        width: 50%;
+        float: left;
+    }
+    .abz4-4{
+        width: 50%;
+        float: left;
+    }
+    .abz5-5{
+        width: 100%;
+        float: left;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 768px){
+    .abz1-1{
+        width: 100%;
+        float: left;
+    }
+    .abz2-2{
+        width: 100%;
+        float: left;
+    }
+    .abz3-3{
+        width: 100%;
+        float: left;
+    }
+    .abz4-4{
+        width: 100%;
+        float: left;
+    }
+    .abz5-5{
+        width: 100%;
+        float: left;
+    }
 }
 
 </style>
 </head>
 <body>
-	<h1 id="up">Автобіографія Юрійчука Василя Володимировича</h1>
-	<div class="home"><a href="index.html">На головну</a></div>
-		<h3 id="Зміст">Зміст</h3>
-		
-			<div class="zms1"><p><a class="zms1-1 "href="#Базова інформація">Базова інформація</a></p><body></div>
-			<div class="zms2"><p><a class="zms2-2" href="#Дитинство">Дитинство</a></p></body></div>
-			<div class="zms3"><p><a class="zms3-3" href="#Шкільні роки">Шкільні роки</a></p></body></div>
-			<div class="zms4"><p><a class="zms4-4" href="#Поза школою">Поза школою</a></p></body></div>
-			<div class="zms5"><p><a class="zms5-5" href="#Університет">Університет</a></p></body></div>
-		</ul>
-		                <div id="w1">
-		                <h3><a id="Базова інформація" class="headline">Базова інформація</a></h3>
-				                <p class="text">Мене звати Василь . Народився в м. Снятин , 2003 року . Зараз проживаю в селі Красноставці , навчаюся в місті Івано-Франківськ . Закінчив 11 класів і поступив у Прикапатський національний університет</p>
-		                                </div>
-			                        <a href="#Зміст">до змісту</a>
-		                <div id="w2">
-		                <h3><a id="Дитинство" class="headline">Дитинство</a></h3>
-			                 <p class="text">Дитинство у мене було дуже цікаве . Знаю , що любив гратися машинками , дивитися телевізор. Дуже багато проводив часу з друзями . Грав у Денді , любив їздити на велосипеді</p>
-		                         </div>
-			                 <a href="#Зміст">до змісту</a>
-		<br>
-		                 <div id="w3">
-		                 <h3><a id="Шкільні роки" class="headline">Шкільні роки</a></h3>
-			                	<p class="text">Навчався я у школі дуже добре , всі роки був відмінником . Я любив різні предмети , але найбільше - математику</p>
-		                                </div>
-				                <a href="#Зміст">до змісту</a>
-		<br>
-		                        <div id="w4">
-			                <h3><a id="Поза школою" class="zag">Поза школою</a></h3>	
-				                <p class="text">Я дуже любив грати на гітарі . Кілька раз виступав на сцені на різні свята . В 10 класі почав займатися спортом , займаюсь в спортзалі вже 2-ий рік</p>
-		                                </div>
-				                <a href="#Зміст">до змісту</a>
-		<br>
-		                        <div id="w5">
-			                <h3><a id="Університет" class="zag">Університет</a></h3>
-			                 <p class="text">На мою думку , мій університети є дуже класним , хоча через карантинні умови я там багато разів не був . Я дуже часто думав, куди мені поступити , але до душі більше хотілось саме в ПНУ . Тут дуже хороші вчителі , які завжди підскажуть і допоможуть . Саме тут я хочу здобувати вищу оствіу і стати професійним програмістом</p>
-		                         </div>
-			                 <a href="#Зміст">до змісту</a>
-		<br>
-			<hr align="center" width="100%" size="3" color="#000000" />
-			<p ><a href="#up" id="Ywerh">Уверх</p>
+<h1 id="up">Автобіографія Юрійчука Василя Володимировича</h1>
+<p><a id="home" href = "index.html">Назад на головну</a></p>
+<a name="top"></a>
+
+<h3>Зміст</h3>
+<p><a class="knopka" href="#Базова_інформація">"Базова інформація"</a></p>
+<p><a class="knopka" href="#Дитинство">"Дитинство"</a></p>
+<p><a class="knopka" href="#Шкільні_роки">"Шкільні роки"</a></p>
+<p><a class="knopka" href="#Поза_школою">"Поза школою"</a></p>
+<p><a class="knopka" href="#Університет">"Університет"</a></p>
+
+
+
+<div class="abz1">
+<article id="abz1-1">
+    <h2 id="Базова_інформація">Базова інформація</h2>
+    <p>Мене звати Василь. Народився в м. Снятин, 2003 року. <br> Зараз проживаю в селі Красноставці. <br> Навчаюся в місті Івано-Франківськ. <br> Закінчив 11 класів і поступив у Прикапатський національний університет</p>
+</article>
+<p><a class="zmist" href="#top">до змісту</a></p>
+</div>
+
+
+<div class="abz2">
+<article id="abz2-2">
+    <h2 id="Дитинство">Дитинство</h2>
+    <p>Дитинство у мене було дуже цікаве. <br> Знаю , що любив гратися машинками , дивитися телевізор. <br> Дуже багато проводив часу з друзями. <br> Грав у Денді, любив їздити на велосипеді</p>
+</article>
+<p><a class="zmist" href="#top">до змісту</a></p>
+</div>
+
+
+<div class="abz3">
+<article id="abz3-3">
+    <h2 id="Шкільні_роки">Шкільні роки</h2>
+    <p>Навчався я у школі дуже добре , всі роки був відмінником. <br> Я любив різні предмети , але найбільше - математику.</p>
+</article>
+<p><a class="zmist" href="#top">до змісту</a></p>
+</div>
+
+
+<div class="abz4">
+<article id="abz4-4">
+    <h2 id="Поза_школою">Поза школою</h2>
+    <p>Я дуже любив грати на гітарі . Кілька раз виступав на сцені на різні свята. <br> В 10 класі почав займатися спортом.<br> Займаюсь в спортзалі вже 2-ий рік.</p>
+</article>
+<p><a class="zmist" href="#top">до змісту</a></p>
+</div>
+
+
+<div class="abz5">
+<article id="abz5-5">
+    <h2 id="Університет">Університет</h2>
+    <p>На мою думку , мій університети є дуже класним. <br> Хоча через карантинні умови я там багато разів не був. <br> Я дуже часто думав, куди мені поступити , <br> але до душі більше хотілось саме в ПНУ. <br> Тут дуже хороші вчителі , які завжди підскажуть і допоможуть. <br> Саме тут я хочу здобувати вищу оствіу і стати професійним програмістом.</p>
+</article>
+<p><a class="zmist" href="#top">до змісту</a></p>
+</div>
+
+
+
+<hr align="center" width="100%" size="3" color="#000000" />
+<p><a id="pro" href="#top1">Уверх</a></p>
 </body>
 </html>
