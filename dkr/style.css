@@ -8,7 +8,7 @@
 
 }
 
-.bod{
+#bod{
     text-align: center;
 }
 
@@ -28,7 +28,7 @@
     background-color: grey;
       margin-top: auto;
     margin-bottom: 10px;
- padding: 10px;
+    padding: 10px;
     margin-right: auto;
     margin-left: auto;
     position: relative;
@@ -47,7 +47,7 @@
 #stovp2{
     background-color: rgb(227, 255, 71);
     position: absolute;
-  left: 350px;
+    left: 350px;
     display: inline-block;
     padding: 3px;
     }
@@ -72,6 +72,6 @@
 #silka{
     text-align: right;
 }
-#city{
+.city{
 border-width: 0 3px 0 0; border-style: solid; 
 padding-right: 10px}
