@@ -2,9 +2,9 @@
 #chicken {
     float: right;
     border: 2px solid black;
-    background-color: FireBrick;
     padding: 0.5%;
     margin: 0 auto;
+    background-color: FireBrick;
     margin-right: 2%;
 
 }
@@ -12,10 +12,11 @@
 #beef {
     float: right;
     border: 2px solid black;
-    background-color: FireBrick;
-    padding: 0.5%;
+        padding: 0.5%;
     margin: 0 auto;
     margin-right: 2%;
+    background-color: FireBrick;
+
 }
 
 #sushi {
