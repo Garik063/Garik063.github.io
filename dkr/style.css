@@ -1,0 +1,77 @@
+ 
+#text{
+    right: 255px;
+}
+
+.name{
+    font-family: 'Jura', sans-serif;
+
+}
+
+.bod{
+    text-align: center;
+}
+
+ .text{
+    width: 256px;
+    float: left;
+     position: absolute;
+    bottom: 0px;
+    right: 0px;
+     margin-bottom: 0px;
+    background-color: rgba(66, 255, 98, 0.678);
+    font-size: 120%;
+}
+
+
+.butn{
+    background-color: grey;
+      margin-top: auto;
+    margin-bottom: 10px;
+ padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+
+.stovp1{
+    background-color: darkcyan;
+     position: absolute;
+     left: 50px;
+    display: inline-block;
+    padding: 3px;
+   
+}
+
+.stovp2{
+    background-color: rgb(227, 255, 71);
+    position: absolute;
+  left: 350px;
+    display: inline-block;
+    padding: 3px;
+    }
+
+.stovp3{
+    background-color: darkgrey;
+     position: absolute;
+    left: 650px;
+    display: inline-block;
+    padding: 3px;
+   
+}
+
+.stovp4{
+    background-color: rgb(224, 224, 224);
+     position: absolute;
+    left: 950px;
+    display: inline-block;
+    padding: 3px;
+   
+}
+.silka{
+    text-align: right;
+}
+.city{
+border-width: 0 3px 0 0; border-style: solid; 
+padding-right: 10px}
