@@ -35,7 +35,7 @@
 }
 
 
-.stovp1{
+#stovp1{
     background-color: darkcyan;
      position: absolute;
      left: 50px;
@@ -44,7 +44,7 @@
    
 }
 
-.stovp2{
+#stovp2{
     background-color: rgb(227, 255, 71);
     position: absolute;
   left: 350px;
@@ -52,7 +52,7 @@
     padding: 3px;
     }
 
-.stovp3{
+#stovp3{
     background-color: darkgrey;
      position: absolute;
     left: 650px;
@@ -61,7 +61,7 @@
    
 }
 
-.stovp4{
+#stovp4{
     background-color: rgb(224, 224, 224);
      position: absolute;
     left: 950px;
@@ -69,9 +69,9 @@
     padding: 3px;
    
 }
-.silka{
+#silka{
     text-align: right;
 }
-.city{
+#city{
 border-width: 0 3px 0 0; border-style: solid; 
 padding-right: 10px}
