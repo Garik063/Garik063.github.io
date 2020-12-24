@@ -16,8 +16,11 @@
     bottom: 0px;
     right: 0px;
      margin-bottom: 0px;
-    background-color: PeachPuff;
+    background-color: LightSeaGreen;
     font-size: 120%;
+}
+#text{
+    right: 255px;
 }
 
 
@@ -68,9 +71,6 @@
 }
 #silka{
     text-align: right;
-}
-#text{
-    right: 255px;
 }
 
 .city{
