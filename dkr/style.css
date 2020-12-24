@@ -1,5 +1,26 @@
  
 
+table
+{
+    border: 1px solid black;
+    margin-bottom: 16px;
+}
+th{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}
+h1{
+    font-family: 'Bungee Outline', cursive;
+
+    text-align: center;
+}
+h2{
+    font-family: 'Bungee Outline', cursive;
+
+    text-align: center;
+}
 .name{
     font-family: 'Jura', sans-serif;
 
@@ -10,12 +31,15 @@
 }
 
  .text{
+    border: 1px solid black;
     width: 256px;
-    float: left;
+    float: right;
+    text-align: center;
+    padding: 1px;
      position: absolute;
     bottom: 0px;
     right: 0px;
-     margin-bottom: 0px;
+     margin-bottom: 0;
     background-color: LightSeaGreen;
     font-size: 120%;
 }
@@ -27,7 +51,7 @@
 .butn{
     background-color: LightSteelBlue;
       margin-top: auto;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding: 10px;
     margin-right: auto;
     margin-left: auto;
@@ -45,29 +69,47 @@
 }
 
 #stovp2{
+
+    border: 1px solid black;
     background-color: Cyan;
-    position: absolute;
-    left: 350px;
-    display: inline-block;
-    padding: 3px;
+     text-align: center;
+     padding: 1px;
+     position: absolute;
+    width: 100px;
+     height: 35px;
+     bottom: 0;
+    right: 0;
+    float: right;
+    margin-bottom: 0;
     }
 
 #stovp3{
     background-color: DarkSeaGreen;
+   border: 1px solid black;
+     text-align: center;
+     padding: 1px;
      position: absolute;
-    left: 650px;
-    display: inline-block;
-    padding: 3px;
+    width: 140px;
+     height: 35px;
+     bottom: 0;
+    right: 0;
+    float: right;
+    margin-bottom: 0;
    
 }
 
 #stovp4{
     background-color: GhostWhite;
+   border: 1px solid black;
+     text-align: center;
+     padding: 1px;
      position: absolute;
-    left: 950px;
-    display: inline-block;
-    padding: 3px;
-   
+    width: 200x;
+     height: 35px;
+     bottom: 0;
+    right: 0;
+    float: right;
+    margin-bottom: 0;
 }
 #silka{
     text-align: right;
