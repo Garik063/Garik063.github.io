@@ -1,7 +1,4 @@
  
-#text{
-    right: 255px;
-}
 
 .name{
     font-family: 'Jura', sans-serif;
@@ -19,7 +16,7 @@
     bottom: 0px;
     right: 0px;
      margin-bottom: 0px;
-    background-color: black;
+    background-color: OrangeRed;
     font-size: 120%;
 }
 
@@ -72,6 +69,10 @@
 #silka{
     text-align: right;
 }
+#text{
+    right: 255px;
+}
+
 .city{
 border-width: 0 3px 0 0; border-style: solid; 
 padding-right: 10px}
