@@ -1,0 +1,115 @@
+#up {text-align: center; font-size: 22px;}
+#home {font-style: italic;}
+h3 {text-align: center;}
+h2 {font-size: 1.8em;}
+article {font-size: 120%;padding: 5px;}
+
+.knopka{
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 100px;
+    background: LawnGreen;
+    box-shadow: 0 -3px Ivory inset;
+    transition: 0.2s;}
+.knopka:hover {
+    background: magenta;
+    box-shadow: none;
+    color: black;}
+.knopka:active {
+    background: yellow;
+}
+.zmist {font-weight: 600;}
+
+#abz1{
+    background-color: yellow;
+    border: 1px solid black;
+}
+#abz2{
+    background-color: MediumBlue;
+    border: 1px solid black;
+}
+#abz3{
+    background-color: MediumTurquoise;
+    border: 1px solid black;
+}
+#abz4{
+    background-color: PaleGreen;
+    border: 1px solid black;
+}
+#abz5{
+    background-color: PeachPuff;
+    border: 1px solid black;
+}
+#pro{text-transform: uppercase;}
+
+@media screen and (min-width: 993px)
+{
+.abz11{
+    width: 33.33%;
+    float: left;
+    }
+.abz22{
+    width: 33.33%;
+    float: left;
+    }
+.abz33{
+    width: 33.33%;
+    float: left;
+    }
+.abz44{
+    width: 50%;
+    float: left;
+    }
+.abz55{
+    width: 50%;
+    float: left;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 992px)
+{
+.abz11{
+    width: 50%;
+    float: left;
+    }
+.abz22{
+    width: 50%;
+    float: left;
+    }
+.abz33{
+    width: 50%;
+    float: left;
+    }
+.abz44{
+    width: 50%;
+    float: left;
+    }
+.abz55{
+    width: 100%;
+    float: left;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 768px)
+{
+.abz11{
+    width: 100%;
+    float: left;
+    }
+.abz22{
+    width: 100%;
+    float: left;
+    }
+.abz33{
+    width: 100%;
+    float: left;
+    }
+.abz55{
+    width: 100%;
+    float: left;
+    }
+.abz55{
+    width: 100%;
+    float: left;
+    }
+}
